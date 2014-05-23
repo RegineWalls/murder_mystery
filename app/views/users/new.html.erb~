@@ -1,0 +1,16 @@
+<%= content_for :header do %>
+	Murder Mystery
+<% end %>
+
+<h1>Create a new charater</h1>
+<%= form_for @user do |f| %>
+	<%= f.label :charname, 'Character Name' %>
+	<%= f.text_field :charname %>
+	<br/>
+	<%= f.submit 'Save' %>
+<% end %>
+<!--automatic na punta sa fields of model-->
+
+<%= content_for :footer do %>
+	Java nice day
+<% end %>

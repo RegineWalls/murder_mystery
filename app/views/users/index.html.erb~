@@ -1,0 +1,14 @@
+<h1>Prologue</h1>
+<!-- insert picture of mansion -->
+<p>Tonight, like some nights, you spend your time at your friend Charles' place. He had invited you once more to his house for a dinner party. As you stand around looking at the people talking, you see Charles and wave.</p>
+
+<p>Charles: Ah *name*! I'm glad you could make it! I was worried you wouldn't show up.</p>
+
+<p>You: Well, it's a good thing there wasn't any case that I needed to handle. Otherwise I would've been caught up at work.</p>
+
+<p>Charles: Ah, right. How has being a detective been? Have you been living out our childhood dream of deducing who the criminal is?</p>
+
+<p>You: Haha. Well, it isn't as easy as we thought, ,obviously, but it is rather fulfilling.</p>
+
+<p>The conversation between you and Charles continue on for quite sometime and then he leaves you to entertain his other guests. You mingle with the other guests as well. Everything was okay until...</p>
+<button type="button" class="btn btn-link"><%= a href="Continue the story", "pages#page001"  %></button>

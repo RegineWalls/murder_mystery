@@ -8,6 +8,6 @@ class UsersController < ApplicationController
 		@user.charname = params[:user][:charname]
 		@user.save!
 		flash[:notice] = "You have entered the story"
-		redirect_to :action => :index
+		render :controller => pages, :action => :page001
 	end
 end
